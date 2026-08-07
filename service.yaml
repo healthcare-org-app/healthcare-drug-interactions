@@ -1,0 +1,9 @@
+name: drug-interactions-service
+port: 8503
+lang: python
+description: "drug-interactions-service \u2014 domain: pharmacy"
+http_deps:
+- audit-log-service
+publishes:
+- audit.event
+subscribes: []
